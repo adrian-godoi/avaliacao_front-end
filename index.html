@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Portal do Candidato - ENEM</h1>
+    </header>
+
+    <main class="content">
+        <form id="loginForm" action="#" method="post">
+            <label for="email">E-Mail:</label>
+            <input type="text" id="email" name="email" required>
+            <div id="error-email" class="error-message"></div>
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required>
+            <div id="error-senha" class="error-message"></div>
+
+            <button type="submit" class="btn-destaque">Entrar</button>
+            <button type="button" id="btnCadastrar" class="btn-destaque">Cadastrar Novo Usuário</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Adrian Gualberto de Godoi. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
