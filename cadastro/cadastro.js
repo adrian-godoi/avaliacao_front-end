@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             if (formularioValido) {
                 alert("Inscrição salva com sucesso!");
-                window.location.href = "index.html";
+                window.location.href = "../login/index.html";
             }
         });
     }
@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (btnVoltar) {
         btnVoltar.addEventListener("click", function (event) {
             event.preventDefault();
-            window.location.href = "index.html";
+            window.location.href = "../login/index.html";
         });
     }
 });

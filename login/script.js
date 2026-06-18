@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (btnCadastrar) {
         btnCadastrar.addEventListener("click", function (event) {
             event.preventDefault();
-            window.location.href = "cadastro.html";
+            window.location.href = "../cadastro/cadastro.html";
         });
     }
 });
